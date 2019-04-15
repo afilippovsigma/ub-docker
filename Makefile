@@ -12,7 +12,7 @@ build:
 	@docker-compose build
 
 ssh:
-	@docker exec -it php-unitedbloggers bash
+	@docker exec -it php-wp bash
 
 restart: stop start
 
